@@ -1,4 +1,10 @@
-## Hi there 👋
+## Hi there, I'm Afzal.
+
+
+I am a Machine Learning Engineer. This is my portfolio page.
+
+## 📌 How to View
+Visit: [https://afzalsiddique.github.io/afzalsiddique](https://afzalsiddique.github.io/afzalsiddique)
 
 <!--
 **afzalsiddique/afzalsiddique** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
