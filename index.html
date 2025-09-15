@@ -4,71 +4,204 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Afzal Siddique | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .project, .experience {
+      margin-bottom: 25px;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-<header>
-    <h1>Afzal Siddique</h1>
-    <p>Machine Learning Engineer | NLP | Data Enthusiast</p>
-</header>
 
-<!-- About -->
-<section>
+  <!-- Header -->
+  <header>
+    <h1>Afzal Siddique</h1>
+    <p>NLP | LLM | Machine Learning Engineer | Software Engineer</p>
+  </header>
+
+  <!-- About -->
+  <section>
     <h2>About Me</h2>
     <p>I am a Machine Learning Engineer with a strong background in NLP, data-driven modeling, and software development. I enjoy building intelligent systems that solve real-world problems, with research interests in Machine Learning, Natural Language Processing, and Large Language Models.</p>
-</section>
-
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/afzalsiddique/SortingAlgorithmVisualizer">Sorting Algorithm Visualizer</a></li>
-    <li><a href="https://github.com/afzalsiddique/TicTacToe">Tic Tac Toe</a></li>
-  </ul>
-
-  <section>
-      <h2>Work Experience</h2>
-
-      <div class="experience">
-          <h3>Machine Learning Engineer — REVE Systems</h3>
-          <p><em>March 2024 – Present</em></p>
-          <ul>
-              <li>Developed Bengali spelling and grammar checker using pseudo-labeling and synthetic data generation.</li>
-              <li>Created a punctuation correction model to enhance text readability.</li>
-              <li>Applied model compression (quantization, knowledge distillation) to reduce LLM size while maintaining accuracy.</li>
-          </ul>
-      </div>
-
-      <div class="experience">
-          <h3>Junior Data Engineer — Wunderman Thompson</h3>
-          <p><em>Oct 2023 – Mar 2024</em></p>
-          <ul>
-              <li>Maintained ELT processes for data movement and transformation.</li>
-              <li>Implemented ML algorithm to fill missing values and accelerate delivery.</li>
-              <li>Processed and transformed raw data for modeling in Snowflake.</li>
-          </ul>
-      </div>
-
-      <div class="experience">
-          <h3>Software Developer (Intern) — Technohaven</h3>
-          <p><em>Jul 2023 – Sep 2023</em></p>
-          <ul>
-              <li>Built customer clustering ML model for improved loan repayment in digital banking.</li>
-              <li>Developed secure session management with JWT and WebSocket.</li>
-              <li>Created chatbot solution with Dialogflow CX for better customer service.</li>
-          </ul>
-      </div>
-
-      <div class="experience">
-          <h3>Analytics Engineer Intern — Intelligent Machines</h3>
-          <p><em>Apr 2022 – Aug 2022</em></p>
-          <ul>
-              <li>Optimized task assignment using ML in the Bkash Biponon Project, reducing costs.</li>
-              <li>Formulated and solved TSP for route optimization.</li>
-              <li>Automated bank statement analysis for IDLC, cutting processing time from 3 days to 30 minutes.</li>
-          </ul>
-      </div>
   </section>
 
+  <!-- Work Experience -->
+  <section>
+    <h2>Work Experience</h2>
 
-  <h2>Contact</h2>
-  <p>Email: afzal.siddique99@gmail.com</p>
+    <div class="experience">
+      <h3>Machine Learning Engineer — REVE Systems</h3>
+      <p><em>March 2024 – June 2025</em></p>
+      <ul>
+        <li>Developed Bengali spelling and grammar checker using pseudo-labeling and synthetic data generation.</li>
+        <li>Created a punctuation correction model to enhance text readability.</li>
+        <li>Applied model compression (quantization, knowledge distillation) to reduce LLM size while maintaining accuracy.</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h3>Junior Data Engineer — Wunderman Thompson</h3>
+      <p><em>Oct 2023 – Mar 2024</em></p>
+      <ul>
+        <li>Maintained ELT processes for data movement and transformation.</li>
+        <li>Implemented ML algorithm to fill missing values and accelerate delivery.</li>
+        <li>Processed and transformed raw data for modeling in Snowflake.</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h3>Software Developer (Intern) — Technohaven</h3>
+      <p><em>Jul 2023 – Sep 2023</em></p>
+      <ul>
+        <li>Built customer clustering ML model for improved loan repayment in digital banking.</li>
+        <li>Developed secure session management with JWT and WebSocket.</li>
+        <li>Created chatbot solution with Dialogflow CX for better customer service.</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <h3>Analytics Engineer Intern — Intelligent Machines</h3>
+      <p><em>Apr 2022 – Aug 2022</em></p>
+      <ul>
+        <li>Optimized task assignment using ML in the Bkash Biponon Project, reducing costs.</li>
+        <li>Formulated and solved TSP for route optimization.</li>
+        <li>Automated bank statement analysis for IDLC, cutting processing time from 3 days to 30 minutes.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <div>
+    <p><strong>M.S. in Computer Science</strong>, North Dakota State University (2025 – 2027)</p>
+    </div>
+    <div>
+      <p><strong>B.Sc. in Software Engineering</strong>, Islamic University of Technology (2019 – 2023)</p>
+      <p>CGPA: 3.71 / 4.0</p>
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>E-Commerce (MERN Stack)</h3>
+      <p>Web app with admin controls, product catalog, add-to-cart, and checkout functionality.</p>
+      <a href="https://github.com/afzalsiddique">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Ecfor (Sign Language Translator)</h3>
+      <p>Translated sign language to English using camera feed for accessibility. Built with Python, Django, and ML object detection models.</p>
+      <a href="https://github.com/afzalsiddique">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section>
+    <h2>Research</h2>
+    <p><strong>Bengali Spell and Grammar Checker</strong></p>
+    <ul>
+      <li>Worked with mBERT, XLM-R, and translation models to design pseudo-labeling for NER tasks.</li>
+      <li>Fine-tuned models for punctuation and spacing corrections in Bengali text.</li>
+      <li>Injected grammatical errors to strengthen model robustness.</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, JavaScript, C</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB</li>
+      <li><strong>Machine Learning:</strong> Numpy, PyTorch, Transformers, Scikit-learn</li>
+      <li><strong>Frontend:</strong> React, HTML, CSS</li>
+      <li><strong>Backend:</strong> NodeJS, ExpressJS</li>
+    </ul>
+  </section>
+
+  <!-- Problem Solving -->
+  <section>
+    <h2>Problem Solving</h2>
+    <ul>
+      <li><strong>LeetCode:</strong> Top 4% (Contest rating 1926), 1200+ problems solved. Profile Link: <a href="https://www.leetcode.com/afzalsiddique">leetcode.com/afzalsiddique</a></li>
+      <li><strong>Codeforces:</strong> 165 problems solved</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section>
+    <h2>Certifications</h2>
+    <p>Deep Learning Specialization — Coursera</p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:afzal.siddique99@gmail.com">afzal.siddique99@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/afzalsiddique/">linkedin.com/in/afzalsiddique</a></p>
+    <p>GitHub: <a href="https://github.com/afzalsiddique">github.com/afzalsiddique</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Afzal Siddique</p>
+  </footer>
+
 </body>
 </html>
